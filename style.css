@@ -251,7 +251,10 @@ li a:hover {
     h1,
     h2,
     h3 {
-        margin: 0 auto;
+        margin-left: 0;
+        margin-right: auto;
+        margin-top: 0;
+        margin-bottom: 0;
         font-family: "n27ita";
         font-weight: 400;
         color: var(--nama-green);
