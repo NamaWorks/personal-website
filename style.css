@@ -35,7 +35,7 @@ h3 {
     margin-right: auto;
     margin-top: 0;
     margin-bottom: 0;
-    font-family: "n27ita";
+    font-family: "n27ita", monospace;
     font-weight: 400;
     color: var(--nama-green);
 }
@@ -244,6 +244,21 @@ li a:hover {
 }
 
 @media screen and (max-width: 720px) {
+
+    @font-face {
+        font-family: "n27";
+        src: url(./assets/fonts/N27-Regular.otf) format(truetype);
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: "n27ita";
+        src: url(./assets/fonts/N27-RegularItalic.otf) format(truetype);
+        font-weight: normal;
+        font-style: italic;
+    }
+    
     * {
         text-align: center;
     }
