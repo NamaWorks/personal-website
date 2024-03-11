@@ -36,6 +36,7 @@ h3 {
     margin-top: 0;
     margin-bottom: 0;
     font-family: "n27ita", monospace;
+    font-style: italic;
     font-weight: 400;
     color: var(--nama-green);
 }
