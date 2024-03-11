@@ -255,7 +255,7 @@ li a:hover {
         margin-right: auto;
         margin-top: 0;
         margin-bottom: 0;
-        font-family: "n27ita" !important; 
+        font-family: "n27ita", monospace; 
         font-weight: 400;
         color: var(--nama-green);
     }
